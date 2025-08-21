@@ -36,21 +36,21 @@ A company suspects an employee of stealing confidential business plans and trans
 ![VM Configuration](screenshots/vm-configuration.png)
 *Virtual machine settings for forensic workstation*
 
-### 2. Forensic Tool Installation
+### 2. Device Discovery and Identification
+- Identified storage devices using lsblk
+- Verified device properties and storage capacity
+- Prepared for forensic imaging process
+
+![Device Discovery](screenshots/device-discovery.png)
+*Storage device identification and verification*
+
+### 3. Forensic Tool Installation
 - Installed comprehensive forensic toolkit
 - Prepared environment for evidence acquisition
 - Verified tool functionality and dependencies
 
 ![Tool Installation](screenshots/forensic-tool-installation.png)
 *Forensic software installation and verification*
-
-### 3. Device Discovery and Identification
-- Identconnected storage devices using lsblk
-- Verified device properties and storage capacity
-- Prepared for forensic imaging process
-
-![Device Discovery](screenshots/device-discovery.png)
-*Storage device identification and verification*
 
 ### 4. Guymager Forensic Imaging
 - Configured forensic image acquisition settings
@@ -66,6 +66,12 @@ A company suspects an employee of stealing confidential business plans and trans
 - Maintained evidence integrity throughout process
 
 ![Image Acquisition](screenshots/image-acquisition.png)
+*Live forensic imaging process with verification*
+
+![Image Acquisition](screenshots/image-acquisition2.png)
+*Live forensic imaging process with verification*
+
+![Image Acquisition](screenshots/image-acquisition3.png)
 *Live forensic imaging process with verification*
 
 ### 6. Autopsy Forensic Browser Setup
@@ -138,12 +144,6 @@ A company suspects an employee of stealing confidential business plans and trans
 - **Evidence Preservation**: Preventing evidence alteration during analysis
 - **Documentation**: Comprehensive case notes and reporting requirements
 
-### Operational Challenges
-- **Resource Intensive**: High CPU and memory requirements for analysis
-- **Storage Management**: Efficient evidence storage and archiving
-- **Tool Proficiency**: Required expertise in multiple forensic applications
-- **Time Constraints**: Balancing thoroughness with investigation timelines
-
 ---
 
 ## Reflections
@@ -197,6 +197,7 @@ sudo guymager
 # - Select EWF format for evidence preservation
 # - Enable MD5, SHA-1, and SHA-256 hashing
 # - Set appropriate case metadata
+# - Set location for the evidence image
 ```
 
 4. **Autopsy Case Setup**
