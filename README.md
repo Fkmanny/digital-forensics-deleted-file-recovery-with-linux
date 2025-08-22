@@ -1,7 +1,7 @@
 # Project: Digital Forensics Investigation with Guymager & Autopsy
 
 ## Overview
-This project demonstrates a comprehensive digital forensics investigation workflow using industry-standard tools to acquire, analyze, and preserve digital evidence from a storage device. The implementation covers forensic imaging, data recovery, and evidence analysis following proper forensic procedures. It would done using Kali Linux forensic workstation and a physical or virtual storage device.
+This project demonstrates a comprehensive digital forensics investigation workflow using industry-standard tools to acquire, analyze, and preserve digital evidence from a storage device. The implementation covers forensic imaging, data recovery, and evidence analysis following proper forensic procedures. It would be done using Kali Linux workstation and a physical storage device.
 
 ---
 
